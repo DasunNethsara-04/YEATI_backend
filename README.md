@@ -1,7 +1,7 @@
-# Project YEATI - Backend
+# Project AgriPiyasa - Backend
 ___
 
-This is the official backend system for the upcoming YEATI (Youth Entrepreneur AgriTech Innovations) Project.
+This is the official backend system for the AgriPiyasa Project.
 
 ## Tech Stack
 - Python
