@@ -15,6 +15,7 @@ from route.crops import router as crops_router
 from route.analytics import router as analytics_router
 from route.admin import router as admin_router
 from route.courses import router as courses_router
+from route.schedules import router as schedules_router
 
 app: FastAPI = FastAPI(
     title="AgriPiyasa API",
@@ -36,6 +37,7 @@ app.include_router(crops_router)
 app.include_router(analytics_router)
 app.include_router(admin_router)
 app.include_router(courses_router)
+app.include_router(schedules_router)
 
 
 @app.get("/", tags=["Health"])
